@@ -11,3 +11,13 @@ env :
 script : 
   - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/projek-uas'"
   - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  - "curl -T about.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  - "curl -T edit.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  - "curl -T edit_proses.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  - "curl -T hapus.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  - "curl -T input.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  - "curl -T input_proses.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  - "curl -T list.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  - "curl -T search.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
+  
