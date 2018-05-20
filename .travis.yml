@@ -9,5 +9,5 @@ env :
     - 'FTP_PASS=rafii412'
 
 script : 
-  - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/projek-uts'"
-  - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uts/"
+  - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/projek-uas'"
+  - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/projek-uas/"
