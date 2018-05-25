@@ -6,7 +6,7 @@ php:
 env :
   global :
     - 'FTP_USER=ropii412'
-    - 'FTP_PASS=rafii412'
+    - 'FTP_PASS=qwerty123'
 
 script : 
   - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/projek-uas'"
